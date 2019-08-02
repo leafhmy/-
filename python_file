@@ -6,7 +6,7 @@ print("请输入原后缀名")
 name = input()
 print("请输入更改后的后缀名")
 rename = input()
-print("请输入文件存放目录")
+print("请输入文件存放目录(注：若为原目录将覆盖原文件)")
 newaddress = input()
 files = os.listdir(address)
 #对文件名清单里的每一个文件名进行处理
